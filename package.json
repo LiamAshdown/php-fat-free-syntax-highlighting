@@ -4,6 +4,10 @@
     "publisher": "LiamAshdown",
     "description": "Syntax highlighting for Fat-Free Framework",
     "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LiamAshdown/php-fat-free-syntax-highlighting.git"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
