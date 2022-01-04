@@ -1,0 +1,26 @@
+{
+    "name": "php-fat-free-syntax-highlighting",
+    "displayName": "PHP Fat-Free Syntax Highlighting",
+    "publisher": "LiamAshdown",
+    "description": "Syntax highlighting for Fat-Free Framework",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "htm",
+            "aliases": ["htm", "htm"],
+            "extensions": ["htm","html"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "htm",
+            "scopeName": "source.htm",
+            "path": "./syntaxes/htm.tmLanguage.json"
+        }]
+    }
+}
