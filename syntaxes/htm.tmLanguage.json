@@ -1,7 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "htm",
+	"name": "html",
   "scopeName": "source.htm",
+  "fileTypes": [
+    "html",
+    "htm"
+  ],
   "patterns": [
     {
       "include": "#boot"
@@ -618,11 +622,7 @@
             "4": {
               "patterns": [
                 {
-                  "patterns": [
-                    {
-                      "include": "#string-double-quoted"
-                    }
-                  ]
+                  "include": "#string-double-quoted"
                 }
               ]
             },
@@ -630,7 +630,7 @@
               "name": "string.quoted.double.html",
               "patterns": [
                 {
-                  "include": "#boot"
+                  "include": "#vue-interpolations"
                 }
               ]
             },
@@ -644,12 +644,7 @@
             "7": {
               "name": "punctuation.definition.tag.html"
             }
-          },
-          "patterns": [
-            {
-              "include": "#boot"
-            }
-          ]
+          }
         },
         {
           "match": "(<)(img) (alt|src|class=)(\"|')(.*)(\"|')?(>)",

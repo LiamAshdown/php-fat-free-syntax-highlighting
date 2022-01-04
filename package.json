@@ -3,7 +3,7 @@
     "displayName": "PHP Fat-Free Syntax Highlighting",
     "publisher": "LiamAshdown",
     "description": "Syntax highlighting for Fat-Free Framework",
-    "version": "0.3.0",
+    "version": "0.2.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/LiamAshdown/php-fat-free-syntax-highlighting.git"
@@ -31,7 +31,7 @@
         ],
         "grammars": [
             {
-                "language": "htm",
+                "language": "html",
                 "scopeName": "source.htm",
                 "path": "./syntaxes/htm.tmLanguage.json"
             }
